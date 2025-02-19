@@ -1,0 +1,10 @@
+.seccion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.separador{
+    height: 2px;
+    width: 85%;
+    background-color: var(--background-2);
+}

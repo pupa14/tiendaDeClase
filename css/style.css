@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.inter-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html{
+    font-size: 14px;
+}
+:root{
+    --primary: #24262b;
+    --secondary: #f1a80b;
+    --background-1: #d1cfcf;
+    --background-2: #9b9b9b;
+    --discount: #ff0808;
+    --card-text: #acacac;
+
+}

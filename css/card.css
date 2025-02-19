@@ -1,0 +1,137 @@
+.card_section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-around;
+    align-items: space-between;
+    border: 2px solid black;
+    background-color: var(--primary);
+    padding: 20px;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    width: 45%;
+    height: auto;
+    border: 2px solid black;
+    background-color: white;
+    filter: grayscale(100%);
+}
+.card-image{
+    width: 50%;
+    height: 100%;
+}
+.card-fuctions{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+.card-link{
+    font-size: 1.10rem;
+    list-style: none;
+    background-color: var(--background-1);
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none; 
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-fuctions-texto {
+    height: auto;
+    font-size: 0.80rem;
+}
+.card-fuctions-options{
+    display: flex;
+    height: auto;
+    margin: 30px 0px;
+}
+.card-fuctions-texto h1{
+    margin: 10px 0px;
+}
+.card-fuctions-texto p{
+    color: var(--card-text);
+    text-align: justify;
+}
+.card-fuctions-options-pay{
+    width: 60%;
+}
+.card-fuctions-options-colors{
+    width: 40%;
+}
+.precio{
+    color: black;
+    font-size: 1.25rem;
+}
+.card-fuctions-options-pay .discount{
+    color: var(--discount);
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.link-pay{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1.20rem;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-fuctions-options-colors{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-fuctions-options-colors-picker{
+    display: block;
+    width: 25%;
+    height: 20px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-fuctions-options-colors-picker:nth-child(1){
+    background-color: var(--discount);
+}
+.card-fuctions-options-colors-picker:nth-child(2){
+    background-color: var(--secondary);
+}
+.card-fuctions-options-colors-picker:nth-child(3){
+    background-color: black;
+}
+/*HOVER*/
+.card-link:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: var(--background-2);
+}
+.card:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.712);
+    filter: grayscale(0%);
+}
+.link-pay:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+.card-fuctions-options-colors-picker:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*focus*/
+.card-fuctions-options-colors-picker:focus{
+    border: 2px solid black;
+    transition: all 2s;
+}
+
+/*media query
+space between en el h1 y el link y cambiar el order
+greyscale 100%
+y al pasar 0%
+
+*/

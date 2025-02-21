@@ -1,0 +1,77 @@
+@media (min-width: 1920px) {
+    .card-fuctions{
+        padding: 30px;
+    }
+    .card-fuctions-texto {
+        font-size: 1.50rem;
+    }
+    .card-fuctions-options-colors-picker{
+        height: 35px;
+    }
+    .card-link{
+        font-size: 1.600rem;
+        padding: 8px;
+        border-radius: 15px;
+    }
+    .card-fuctions-texto h1{
+        margin: 20px 0px;
+    }
+    .precio{
+        font-size: 2rem;
+    }
+    .card-fuctions-options-pay .discount{
+        font-size: 1.25rem;
+    }
+    .link-pay{
+        margin-top: 15px;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 960px){
+    .card{
+        width: 90%;
+    }
+}
+@media (max-width: 680px){
+    .card {
+        flex-direction: column; /* Apilar la imagen y el contenido */
+        width: 95%; /* Hacer la tarjeta más ancha en pantallas pequeñas */
+    }
+
+    .card-image {
+        width: 100%; /* La imagen ocupará todo el ancho disponible */
+        height: auto; /* Asegura que la imagen mantenga su proporción */
+    }
+
+    .card-fuctions {
+        width: 100%; /* El contenido tomará todo el ancho */
+        padding: 15px; /* Espaciado reducido para móviles */
+    }
+
+    .card-fuctions-texto {
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between; /* Espacio entre h1 y link */
+        align-items: center;
+         /* Ajustar el tamaño de fuente para pantallas pequeñas */
+    }
+    .card-fuctions-texto h1{
+        order: 1;
+        display: block;
+    }
+    .card-fuctions-texto a{
+        order: 2;
+        display: block;
+    }
+    .card-fuctions-texto p{
+        display: block;
+
+    }
+
+}
+
+
+
+

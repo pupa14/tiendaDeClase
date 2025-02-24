@@ -1,0 +1,41 @@
+.footer-main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: var(--primary);
+    border-top: 2px solid var(--secondary);
+}
+.footer-sections{
+    display: block;
+    width: 15%;
+    height: 80%;
+
+}
+.footer-sections h4{
+    font-size: 1.10rem;
+    color: white;
+}
+.footer-link{
+    color: white;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 0.90rem;
+}
+.separador-footer{
+    margin: 15px 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--secondary);
+}
+.footer-social{
+    background-color: var(--social-background);
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+
+}

@@ -37,5 +37,19 @@
     padding: 7px;
     border-radius: 50%;
     color: white;
+}
+@media (max-width: 960px){
+    .footer-main{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .footer-sections{
+        width: 80%;
+        margin: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 680px){
 
 }

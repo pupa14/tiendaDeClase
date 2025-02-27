@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 .inter-text {
     font-family: "Inter", sans-serif;
@@ -15,6 +17,7 @@ html{
 :root{
     --primary: #24262b;
     --secondary: #f1a80b;
+    --header: #b16029;
     --background-1: #d1cfcf;
     --background-2: #9b9b9b;
     --discount: #ff0808;

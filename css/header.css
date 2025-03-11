@@ -48,15 +48,36 @@ nav a {
     font-weight: normal;
 }
 .options-header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
     width: 20%;
 }
 .logo img{
     height: 45px;
 
 }
-
+.link-registro{
+    display: block;
+    font-weight: bold;
+    border: 2px solid var(--header);
+    padding: 10px;
+    color: var(--header);
+    border-radius: 8px;
+}
+.link-registro.login{
+    width: 35%;
+}
+.link-registro.register{
+    width: 45%;
+    background-color: white;
+}
 nav a:hover {
     background-color: white;
     color: var(--header);
     transform: scale(1.10);
+}
+.link-registro:hover{
+    background-color: var(--header);
+    color: white;
 }

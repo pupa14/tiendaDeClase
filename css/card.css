@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 95%;
+    margin: 10px;
+    border-top: 2px solid var(--social-background);
     justify-content: space-around;
     align-items: space-between;
-    background-color: var(--primary);
-    /* border: 2px solid var(--secondary); */
-    padding: 20px;
+    padding: 10px;
     gap: 20px;
 }
 .card{
@@ -116,6 +116,7 @@
 .card:hover{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.712);
     filter: grayscale(0%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .link-pay:hover{
     color: black;

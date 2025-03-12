@@ -142,13 +142,13 @@
         padding: 30px;
     }
     .card-fuctions-texto {
-        font-size: 1.50rem;
+        font-size: 1.40rem;
     }
     .card-fuctions-options-colors-picker{
         height: 35px;
     }
     .card-link{
-        font-size: 1.600rem;
+        font-size: 1.500rem;
         padding: 8px;
         border-radius: 15px;
     }
@@ -156,7 +156,7 @@
         margin: 20px 0px;
     }
     .precio{
-        font-size: 2rem;
+        font-size: 1.80rem;
     }
     .card-fuctions-options-pay .discount{
         font-size: 1.25rem;

@@ -16,7 +16,9 @@ html{
 }
 :root{
     --primary: #24262b;
+    --primary-suave: #24262bb9;
     --secondary: #b16029;
+    --secondary-suave: #b15f29cc;
     --header: #b16029;
     --background-1: #d1cfcf;
     --background-2: #9b9b9b;

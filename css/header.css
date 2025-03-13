@@ -36,9 +36,8 @@ nav a {
     transition: background-color 0.3s ease; 
 }
 .logo{
-    width: 20%;
+    width: 25%;
     height: 40px;
-    margin: 10px 0px 5px 20px;
     display: flex;
     align-items: flex-end;
 
@@ -90,8 +89,8 @@ nav a:hover {
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        height: auto;
-        position: relative;
+        height: 60px;
+        position: fixed;
         padding: 10px 20px;
         z-index: 9999;
     }
@@ -100,14 +99,12 @@ nav a:hover {
         width: 40%;
         display: flex;
         position: relative; 
-        z-index: 10000;
 
     }
 
     .logo img {
         height: 45px;
         position: relative;
-        z-index: 10000;
     }
 
     .logo p {
@@ -116,7 +113,6 @@ nav a:hover {
         color: white;
         margin-left: 10px;
         position: relative;
-        z-index: 10000;
     }
 
     .labe_hamburguesa {
@@ -128,11 +124,12 @@ nav a:hover {
         right: 20px; 
         top: 50%;
         transform: translateY(-50%);
-        z-index: 1000;
+        z-index: 99999;
     }
 
     .menu_hamburguesa {
         display: none;
+
     }
 
     nav {
@@ -153,7 +150,6 @@ nav a:hover {
         overflow: hidden;
         opacity: 0;
         gap: 100px;
-        z-index: 999;
         transition: height 0.4s ease, opacity 0.3s ease;
     }
     .menu_hamburguesa:checked + nav ul {
@@ -187,7 +183,6 @@ nav a:hover {
     }
     .logo img {
         height: 39px;
-
     }
 
     .logo p {
@@ -196,7 +191,6 @@ nav a:hover {
         color: white;
         margin-left: 10px;
         position: relative;
-        z-index: 10000;
     }
     nav a {
 

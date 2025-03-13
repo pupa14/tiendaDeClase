@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 95%;
-    margin: 10px;
+    margin-top: 10px;
     border-top: 2px solid var(--social-background);
     justify-content: space-around;
     align-items: space-between;
@@ -171,6 +171,9 @@
 @media (max-width: 960px){
     .card{
         width: 80%;
+    }
+    .card_section{
+        margin-top: 70px;
     }
     .card-fuctions-options-colors{
         padding: 0 30px;

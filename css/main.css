@@ -1,18 +1,18 @@
 @keyframes slideAnimation {
     0% {
-        transform: translateX(0); /* Inicia en la primera diapositiva */
+        transform: translateX(0); 
     }
     25% {
-        transform: translateX(-33.33%); /* Desplaza a la segunda diapositiva */
+        transform: translateX(-33.33%); 
     }
     50% {
-        transform: translateX(-66.66%); /* Desplaza a la tercera diapositiva */
+        transform: translateX(-66.66%); 
     }
     75% {
-        transform: translateX(-33.33%); /* Vuelve a la segunda diapositiva */
+        transform: translateX(-33.33%); 
     }
     100% {
-        transform: translateX(0); /* Regresa a la primera diapositiva */
+        transform: translateX(0); 
     }
 }
 .main{
@@ -21,20 +21,6 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-/* .slayer{
-    margin: 30px;
-    background-color: var(--primary);
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    height: 500px;
-}
-.slides{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-} */
 /* Contenedor principal */
 .slider {
     width: 90%;

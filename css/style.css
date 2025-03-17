@@ -26,3 +26,30 @@ html{
     --card-text: #acacac;
     --social-background:#6b6b6b;
 }
+.link-pay{
+    display: flex;  
+    align-items: center;  /* Centra verticalmente */
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.30rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.link-pay i{
+    margin-right: 4px;
+}
+.link-pay:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}

@@ -75,18 +75,6 @@
     font-size: 1rem;
     text-decoration: line-through;
 }
-.link-pay{
-    display: block;
-    width: 100%;
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 3px;
-    font-size: 1.20rem;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 .card-fuctions-options-colors{
     display: flex;
     justify-content: space-evenly;
@@ -118,14 +106,7 @@
     filter: grayscale(0%);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.link-pay:hover{
-    color: black;
-    background-color: white;
-    border: 2px solid black;
-    transform: scale(1.1); 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
-}
+
 .card-fuctions-options-colors-picker:hover {
     transform: scale(1.2); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -162,6 +143,8 @@
         font-size: 1.25rem;
     }
     .link-pay{
+        height: 60px;
+        width: 200px;
         margin-top: 15px;
         padding: 12px;
         border-radius: 8px;

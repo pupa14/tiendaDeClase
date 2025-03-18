@@ -61,6 +61,10 @@ footer{
 .formulario textarea {
     height: 100px;
 }
+.checkboxorden{
+    display: flex;
+    justify-content: flex-start;
+}
 .checkbox {
     display: flex;
     align-items: start;

@@ -175,4 +175,19 @@ h4{
     .info-slayer h3{
         display: none;
     }
+    .slider {
+        width: 95%;
+        height: 1200px;
+    }
+    .slide{
+        flex-direction: column;
+    }
+    .info-slayer{
+        width: 100%;
+        order: 2;
+    }
+    .img-slayer{
+        width: 100%;
+        order: 1;
+    }
 }

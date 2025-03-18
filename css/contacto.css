@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
 }
 footer{
     margin-top: auto;
